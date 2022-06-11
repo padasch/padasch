@@ -1,0 +1,14 @@
+---
+title: "Education"
+image: "/path/to/image.png"
+type: "page"
+---
+
+## Degrees
+
+- 2019 - 2022: MSc Environmental Sciences, ETH Zürich - with distinction
+- 2015 - 2019: BSc Environmental Sciences, ETH Zürich
+
+## Teaching
+
+- to be added

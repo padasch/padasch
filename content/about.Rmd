@@ -1,0 +1,7 @@
+---
+title: "About"
+image: "/path/to/image.png"
+type: "page"
+---
+
+... to be added
