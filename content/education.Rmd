@@ -6,6 +6,7 @@ type: "page"
 
 ## Degrees
 
+- 2022 - now: PhD in Climate Science, University of Bern 
 - 2019 - 2022: MSc Environmental Sciences, ETH Zürich - with distinction
 - 2015 - 2019: BSc Environmental Sciences, ETH Zürich
 
