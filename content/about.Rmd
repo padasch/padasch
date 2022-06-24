@@ -7,6 +7,18 @@ showTableOfContents: true
 
 > ... page is under 🏗️
 
+## Who am I?
+
+In Short:
+
+  - PhD in Computational Ecosystem Science 🌍 👨‍💻 
+  - Passionate about nature and its protection 🛡🌳
+  - Interested in Open Science 📚, Neurology 🧠 and Philosophy 💭
+
+<!-- In Long: -->
+
+
+
 ## Education
 
 - 2022 - now: PhD in Climate Science, University of Bern 
