@@ -1,0 +1,27 @@
+---
+title: "Academia"
+# image: "/path/to/image.png"
+type: "page"
+showTableOfContents: true
+---
+
+> ... page is under 🏗️
+
+<!-- Note to myself: Use citation style "Elsevier - Harvard (with titles)" from Zotero -->
+
+## Teaching
+
+- to be added
+
+## Publications
+
+### Pre-PhD
+
+- Fang, X., Muntwyler, A., ***Schneider, P***., Christl, I., Wang, P., Zhao, F.-J., & Kretzschmar, R. (2022). Exploring Key Soil Parameters Relevant to Arsenic and Cadmium Accumulation in Rice Grain in Southern China. Soil Systems, 6(2), 36. https://doi.org/10.3390/soilsystems6020036
+
+- ***Schneider, P.***, Salvo, G. D., & Paulin, N. (2018). Nachhaltigkeit an Schweizer Hochschulen: Das Erfolgsbeispiel Nachhaltigkeitswoche Zürich. GAIA - Ecological Perspectives for Science and Society, 27(3), 324–326. https://doi.org/10.14512/gaia.27.3.15
+
+## Conferences 
+
+- to be added
+

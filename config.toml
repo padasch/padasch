@@ -14,12 +14,13 @@ pygmentsStyle = "monokai"
   description = "... and this is where I share my thoughts and ideas!"
   avatarURL = "/images/picture_cv_ps.jpeg"
   avatarSize = "size-m"
-  customHeadHTML = ""
+  customHeadHTML = "<script>console.log('Any HTML')</script>"
   socialIcons = [
+    {name = "github", url = "https://github.com/padasch"},
     {name = "twitter", url = "https://twitter.com/padasch_"},
     {name = "linkedin", url = "https://linkedin.com/schneiderpascal"},
   ]
-  metaKeywords = ["blog", "phd", "science"]
+  metaKeywords = ["blog", "phd", "science", "academia", "earth system", "data science", "biosphere modeling"]
   showPostsOnHomePage = "recent"
   accentColor = "#08F"
 
@@ -34,21 +35,17 @@ pygmentsStyle = "monokai"
     name = "About"
     url = "/about/"
     weight = 2
+    
+  [[menu.main]]
+    name = "Academia"
+    url = "/academia/"
+    weight = 3
 
   [[menu.main]]
     name = "Posts"
     url = "/posts/"
-    weight = 3
-
-  [[menu.main]]
-    name = "Education"
-    url = "/education/"
     weight = 4
 
-  [[menu.main]]
-    name = "Publications"
-    url = "/publications/"
-    weight = 5
 
 [markup]
   [markup.tableOfContents]
