@@ -1,5 +1,5 @@
 ---
-title: "Let's do Proper Data Management in Science!"
+title: "Why Open Science and Good Data Management is Important"
 date: 2022-07-01
 description: "I attended a summer school on research data management and here are my key take-aways on open science."
 tags: ["open science", "data", "science", "reproducibility"]
