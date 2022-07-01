@@ -1,0 +1,164 @@
+---
+title: "Let's do Proper Data Management in Science!"
+date: 2022-07-01
+description: "I attended a summer school on research data management and here are my key take-aways on open science."
+tags: ["open science", "data", "science", "reproducibility"]
+draft: false
+type: post
+weight: 25
+showTableOfContents: true
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="too-long-didnt-read" class="section level2">
+<h2>Too Long, Didn’t Read:</h2>
+<ul>
+<li>The world of data is chaotic and a lot of research is not reproducible due to non-standardized,
+improper ways of handling and publishing data.</li>
+<li>Be part of the solution and stick to a data management plan early on in your research to force
+you to think about gathering, handling, publishing, licensing, and storing data that you, your
+peers, and the broad public can use for decades to come.</li>
+<li>Open science encompasses much more than just sharing data! Use open-source software where
+possible, publish data in line with the FAIR principles, be transparent about your analysis so
+others can reproduce it, and most importantly, explain in plain concise language what you did
+with your data (yes, this means a lot of comments in your code but it is worth it!)</li>
+</ul>
+</div>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>In the second week of my PhD, I attended a summer school on research data management<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> (hereafter
+RDM) hosted by ETH Zurich and it really helped me to think about the bigger picture of using data in
+research. The summer school covered various topics from searching data online to wrangling it and
+finally publishing it under open access. This post is much too short for an exhaustive elaboration
+on each step, so I will only focus on the key messages and may elaborate in later posts.</p>
+</div>
+<div id="the-reproducibility-crisis" class="section level2">
+<h2>The Reproducibility Crisis</h2>
+<p>To exemplify the importance of and need for proper research data management may be apparent to
+anyone who tried to re-use data or code from other people. The magnitude of this issue was much
+larger than I expected. I only knew of the reproducibility crisis in psychological research.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>However, there is a serious crisis across all fields. In a 1’500 participants study, 90% said that
+there is a significant (58%) or slight (38%) reproducibility crisis in science.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> I took it as a
+serious note to my own coding when reading that 40% of scientists in my field of earth and
+environmental science failed to reproduce their own results! So, we better stick to the Gold
+Standard of full replication of results<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> and do not belong to the 93%<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> that claim their data
+is available on request but never make it available…</p>
+<p>It is no big surprise that more and more funders request a data management plan (DMP) when writing
+research proposals. Following coherent RDM principles will help to resolve this crisis and bring
+clear advantages for you as a researcher, for the peers you are collaborating with, and for the
+general public which often funds your work. You may gain career recognition, citations and attract
+new collaborations whilst your peers can benefit from using your work for their research, for
+teaching, for new insights that you might have missed, etc. And the general public will gain
+much-needed trust in science, can independently validate your work, and even participate as citizen
+scientists.</p>
+</div>
+<div id="the-data-life-cycle" class="section level2">
+<h2>The Data Life Cycle</h2>
+<p>The summer school started with the presentation of a data life cycle which consists of the following
+steps (see Foster Open Science for a visualization<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>):</p>
+<ol style="list-style-type: decimal">
+<li>Defining a research question</li>
+<li>Creating a data management plan</li>
+<li>Collecting, storing, and documenting data</li>
+<li>Evaluating and selecting data of interest</li>
+<li>Processing, analyzing, and interpreting data</li>
+<li>Publishing</li>
+<li>Preserving</li>
+<li>Verifying and re-use</li>
+<li>(…jumping back to “1. Defining a research question”)</li>
+</ol>
+<p>As you see, this life cycle is much more exhaustive than just accessing and re-using data for your
+own work. It starts from your first idea for what data might be useful to preserving your final data
+(that includes manuscripts and code) in a reusable matter for possibly multiple decades. Thus, it is
+crucial for the beginning of any project, that there is a clear strategy - or data management plan -
+in place which prepares, tracks, and ensures the principles of proper RDM.</p>
+<p>Following the recommendation of the SNSF, a DMP should cover the four main topics:</p>
+<ul>
+<li>Data Collection: What data will be collected in what way are you going to do and document it?</li>
+<li>Ethics, legal and security issues: How will you handle ethical issues, safely store sensitive
+data and handle copyright issues?</li>
+<li>Data Storage and Preservation: How and where do you share the data (repositories, research
+collections, etc.), and how do you ensure being in line with FAIR principles and security
+requirements?</li>
+</ul>
+</div>
+<div id="open-science" class="section level2">
+<h2>Open Science</h2>
+<p>There is various confusing terminology out there when it comes to defining open science. Following
+the definition by the Swiss National Science Foundation (SNSF), open science “is the umbrella term
+for all efforts aimed at achieving more openness in science and the necessary paradigm shift”.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a>
+Foster Open Science defined the following categories of open science:<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a></p>
+<ul>
+<li>Open Notebooks</li>
+<li>Open Data</li>
+<li>Open Peer Review</li>
+<li>Open Access</li>
+<li>Open Source</li>
+<li>Scientific Social Networks</li>
+<li>Citizen Science</li>
+<li>Open Educational Resources</li>
+</ul>
+<p>There is a lot of open data out there but unfortunately, most of it is just not useable in a quick
+and easy way. Various reasons that cause such issues of non-reproducibility can be avoided following
+the FAIR principles.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> These principles compromise simple intuitive rules that should be
+considered when aiming at sharing data:</p>
+<ul>
+<li><strong>F</strong> indable: Use DOIs, write well-documented metadata and data, index work in search engines</li>
+<li><strong>A</strong> ccessible: When found, at least the (well-documented) metadata should be available</li>
+<li><strong>I</strong> nteroperable: Use file types that are useable by any machine/software and that can be
+potentially read by humans (e.g., text files can be read, binary files not)</li>
+<li><strong>R</strong> reusable: Metadata fully describes data, and includes a suitable license that meets the
+standards of your scientific communities.</li>
+</ul>
+<p>However, note that these FAIR principles do not directly require that the data is open. If your
+research field and funding body allow, you can publish your data in a publicly accessible repository
+with a suitable open source license.</p>
+</div>
+<div id="remarks" class="section level2">
+<h2>Remarks</h2>
+<p>The topic of RDM is much broader than what can be depicted in a single post (even an entire summer
+school was barely enough to dive deep into all the topics). Here is a list of other topics that are
+part of RDM which have not been covered here :</p>
+<ul>
+<li>Handling of sensitive data: In fields where personal data is collected, e.g. in medical
+research, a multitude of additional aspects have to be considered. When doing such research, you
+should be aware of basic ethical principles as declared by Nuremberg Code in 1947. Also when
+considering open access and open data, you should clarify with funders and the legal department
+of your university what rules and regulations apply.</li>
+<li>Coding best practices: We had a great introduction to good coding practices which I cannot
+elaborate in detail here. Keywords: Using open software, using open file formats, using
+containers to create environments for reproducibility, learning how to use git and set up a
+sensible directory for your files, and much more.</li>
+<li>Where to get help: Check in with the IT, legal, and publishing department of your institution.
+They should be able to help you out in conducting open science and if not - tell them that they
+should get engaged in it!</li>
+</ul>
+<p>I hope you enjoyed reading these lines! I am fairly inexperienced with blogging and am happy about
+any comments and constructive critique!</p>
+</div>
+<div id="disclaimer" class="section level2">
+<h2>Disclaimer</h2>
+<p>The content of this post was mostly taken from the content provided at the summer school on research
+data management at ETH Zurich. Here and there I added my own opinions and interest.</p>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://library.ethz.ch/en/news/events/eth-research-data-management-summer-school-2022.html" class="uri">https://library.ethz.ch/en/news/events/eth-research-data-management-summer-school-2022.html</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Open Science Collaboration, 2015. Estimating the reproducibility of psychological science.
+Science 349, aac4716. <a href="https://doi.org/10.1126/science.aac4716" class="uri">https://doi.org/10.1126/science.aac4716</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Baker, M., 2016. 1,500 scientists lift the lid on reproducibility. Nature 533, 452–454.
+<a href="https://doi.org/10.1038/533452a" class="uri">https://doi.org/10.1038/533452a</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>Peng, R.D., 2011. Reproducible Research in Computational Science. Science 334, 1226–1227.
+<a href="https://doi.org/10.1126/science.1213847" class="uri">https://doi.org/10.1126/science.1213847</a><a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>Gabelica, M., Bojčić, R., Puljak, L., 2022. Many researchers were not compliant with their
+published data sharing statement: mixed-methods study. Journal of Clinical Epidemiology 0.
+<a href="https://doi.org/10.1016/j.jclinepi.2022.05.019" class="uri">https://doi.org/10.1016/j.jclinepi.2022.05.019</a><a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p><a href="https://www.fosteropenscience.eu/content/what-open-science-introduction" class="uri">https://www.fosteropenscience.eu/content/what-open-science-introduction</a><a href="#fnref6" class="footnote-back">↩︎</a></p></li>
+<li id="fn7"><p><a href="https://www.snf.ch/en/dah3uC2QX95tfPNd/topic/open-science" class="uri">https://www.snf.ch/en/dah3uC2QX95tfPNd/topic/open-science</a><a href="#fnref7" class="footnote-back">↩︎</a></p></li>
+<li id="fn8"><p><a href="https://www.fosteropenscience.eu/content/what-open-science-introduction" class="uri">https://www.fosteropenscience.eu/content/what-open-science-introduction</a><a href="#fnref8" class="footnote-back">↩︎</a></p></li>
+<li id="fn9"><p><a href="https://www.go-fair.org/fair-principles" class="uri">https://www.go-fair.org/fair-principles</a><a href="#fnref9" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
