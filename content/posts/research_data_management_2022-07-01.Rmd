@@ -1,7 +1,7 @@
 ---
 title: "Why Open Science and Good Data Management is Important"
 date: 2022-07-01
-description: "I attended a summer school on research data management and here are my key take-aways on open science."
+description: "I attended a summer school on research data management and here are my key takeaways on open science and why good data management is so important."
 tags: ["open science", "data", "science", "reproducibility"]
 draft: false
 type: post
