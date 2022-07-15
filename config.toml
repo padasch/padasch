@@ -18,7 +18,7 @@ pygmentsStyle = "monokai"
   socialIcons = [
     {name = "github", url = "https://github.com/padasch"},
     {name = "twitter", url = "https://twitter.com/padasch_"},
-    {name = "linkedin", url = "https://linkedin.com/schneiderpascal"},
+    {name = "linkedin", url = "https://linkedin.com/in/schneiderpascal"},
   ]
   metaKeywords = ["blog", "phd", "science", "academia", "earth system", "data science", "biosphere modeling"]
   showPostsOnHomePage = "recent"
