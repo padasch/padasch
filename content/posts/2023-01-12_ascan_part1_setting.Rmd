@@ -24,10 +24,7 @@ So, how can we calm our minds and find out whether plants (hopefully) continue t
 
 The interactions of the carbon-nitrogen cycle are highly interwoven, complex to understand, and a mystery we need to solve to comprehend what may happen to our precious planet under the pressure of climate change. Although I have not yet settled on a precise formulation, the grand question of my PhD may sound something like this: What are the complex interactions of the carbon and nitrogen cycle in our ecosystems that determine whether the global biosphere will continue to aid us in our fight against climate change?
 
-
-```{r echo=FALSE, fig.align='center', fig.cap="An illustration created with DALL-E that shows (or should to do so at least) the mysterious and mighty dance of carbon and nitrogen in a tree."}
-knitr::include_graphics("../images/ascan_part_1.png")
-```
+![Figure 1: An illustration created with DALL-E that shows (or should show at least) the mysterious and mighty dance of carbon and nitrogen in a tree.](/images/ascan_part_1.png)
 
 [^1]: See Section 5.4.3 Climate Effect on Land Carbon Uptake in Chapter 5 of IPCC AR6 ([Link](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5))
 [^2]: IPCC: Intergovernmental Panel on Climate Change
