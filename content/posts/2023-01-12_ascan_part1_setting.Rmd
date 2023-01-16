@@ -1,8 +1,8 @@
 ---
-title: A Song of Carbon And Nitrogen - Part 1 - The Setting
+title: "A Song of Carbon And Nitrogen: Part 1 - The Setting"
 author: 'Pascal Schneider'
 date: 2023-01-12
-description: "This blog post is the beginning of what I call 'A Song of Carbon and Nitrogen', with shameless cultural reference to the great fantasy story."
+description: "This blog post is the beginning of what I call 'A Song of Carbon and Nitrogen' - a simple story that tells the journey of my PhD."
 tags: ["carbon-nitrogen cycle", "prose", "science communication"]
 draft: false
 type: post
@@ -12,9 +12,11 @@ showTableOfContents: false
 
 ## Part 1 - The Setting
 
-Have you ever looked at a forest and wondered about where all this wood comes from? Like all plants, trees have the magnificent capability to draw gaseous carbon dioxide from the air and turn it into hard touchable wood. But trees do not only need carbon to grow. Like humans, they need other nutrients to build their leaves, stems, and roots. A major nutrient to do so is nitrogen; another element well-hidden in our earth's soils and taken up through a tree's web of roots. 
+Have you ever looked at a forest and wondered about where all this wood comes from? Like all plants, trees have the magnificent capability to draw gaseous carbon dioxide from the air and turn it into hard touchable wood. But trees do not only need carbon to grow. Like humans, they need other nutrients to build their leaves, stems, and roots. A major nutrient to do so is nitrogen - another element well hidden from our eyes that actually makes up about 80% of our earth's atmosphere. 
 
-Looking at all the trees growing around us, one may think that this uptake of carbon and nitrogen cannot be that complicated - trees seem to do it all the time, right? And yet, looking at the current state of knowledge, this is no trivial question at all. And luckily so! Because precisely this complex interplay of the carbon and nitrogen cycle of our ecosystem is my PhD's main research topic. This blog post is the beginning of what I call "A Song of Carbon and Nitrogen", with shameless cultural reference to the great fantasy story.
+Unlike carbon dioxide, however, trees do no take up nitrogen through their leaves. Quite the opposite, in fact! They often rely on a tight friendship with tiny microorganisms that live attached or even within their roots. These microorganisms can access nitrogen through various ways, like absorbing it directly from the atmosphere, breaking up old plant debris, or even by chewing away on pieces of rocks.
+
+Looking at all the trees growing around us, one may think that the acquisition of carbon and nitrogen cannot be that complicated - trees seem to do it all the time, right? And yet, the current state of knowledge shows that this is no trivial question at all. And luckily so! This complex and fascinating interplay of our ecosystem's carbon and nitrogen cycle is my PhD's main research topic. This blog post is the beginning of what I call "A Song of Carbon and Nitrogen", with obvious cultural reference to the great fantasy story.
 
 All research must be founded on a grand overarching question that embodies its relevance for our life. Understanding the carbon-nitrogen cycle is of great interest because it directly affects our biosphere's capability of coping with human-made climate change. More carbon dioxide and a warmer climate may sound nice for plants, and indeed the biosphere's carbon uptake has increased over the past decades[^1].
 
